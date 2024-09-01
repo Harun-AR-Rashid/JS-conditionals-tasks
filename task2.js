@@ -22,8 +22,8 @@ console.log(heightMeter);
 
 const BMI = weight / heightMeter **2
 BMI.toFixed(3);
-const BMIC = parseFloat(BMI.toFixed(3))
-console.log(BMIC);
+const BMICalculate = parseFloat(BMI.toFixed(3))
+console.log(BMICalculate);
 if(BMI < 18.5){
     console.log("You are underweight")
 } else if(BMI >= 18.5 && BMI <=24.9){
